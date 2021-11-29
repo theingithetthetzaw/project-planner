@@ -1,8 +1,8 @@
 <template>
 
-<div class="project" :class="{complete:project.complete}">
+<div class="project">
 
-    <div class="flexing">
+    <div class="flexing" :class="{complete:project.complete}">
         <div> 
             <h3 @click="showDetail=!showDetail">{{project.title}}</h3>
         </div>
@@ -10,9 +10,13 @@
         <span class="material-icons" @click="deleteProject">
             delete
         </span>
-        <span class="material-icons">
+
+        <router-link :to="{name:'EditProject', params:{id:project.id}}">
+             <span class="material-icons">
             edit
         </span>
+        </router-link>
+       
         <span class="material-icons" @click="completeProject">
             done
         </span>
