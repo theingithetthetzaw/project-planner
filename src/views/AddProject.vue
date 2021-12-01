@@ -68,7 +68,7 @@ export default {
         width: 100%;
         box-sizing: border-box;
     }
-    button{
+    form button{
         display: block;
         margin: 20px auto 0;
         background: #00ce89;

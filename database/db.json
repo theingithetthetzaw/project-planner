@@ -4,13 +4,13 @@
       "id": 1,
       "title": "Project title 1 update",
       "detail": "Project detail 1 update",
-      "complete": true
+      "complete": false
     },
     {
       "id": 3,
       "title": "Project title 3",
       "detail": "Project detail 3",
-      "complete": true
+      "complete": false
     },
     {
       "id": 4,
